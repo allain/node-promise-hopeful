@@ -26,7 +26,7 @@ hopeful(Promise.reject()).then(function(result) {
 });
 
 // passthrough of rejected value
-hopeful(Promise.reject("baaaah)).then(function(result) {
+hopeful(Promise.reject('baaaah')).then(function(result) {
   console.log(result.message); //=> baaaah 
 });
 
