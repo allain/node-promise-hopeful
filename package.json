@@ -1,0 +1,28 @@
+{
+  "name": "promise-hopeful",
+  "version": "1.0.0",
+  "description": "A module that catches rejected promises and resolves them with Errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allain/promise-hopeful"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "Allain Lalonde <allain.lalonde@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allain/promise-hopeful/issues"
+  },
+  "dependencies": {
+    "any-promise": "^0.1.0"
+  },
+  "devDependencies": {
+    "es6-promise": "^2.0.1",
+    "mocha": "~1.17.0"
+  }
+}
