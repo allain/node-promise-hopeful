@@ -4,7 +4,7 @@ A module that catches rejected promises and resolves them with Errors.
 
 It's useful when you want to run Promise.all and have it resolve all promise resolutions.
 
-[![build status](https://secure.travis-ci.org/allain/promise-hopeful.png)](http://travis-ci.org/allain/promise-hopeful)
+[![build status](https://secure.travis-ci.org/allain/node-promise-hopeful.png)](http://travis-ci.org/allain/node-promise-hopeful)
 
 ## Installation
 
